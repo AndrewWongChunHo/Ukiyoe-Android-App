@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp">
+
+    <ImageView
+        android:id="@+id/paintingImage"
+        android:layout_width="150dp"
+        android:layout_height="120dp"
+        android:layout_marginRight="20dp"
+        android:src="@drawable/image2" />
+
+    <TextView
+        android:id="@+id/paintingName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:layout_toEndOf="@id/paintingImage"
+        android:text="Under the Wave off Kanagawa"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/paintingArtist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/paintingName"
+        android:layout_toEndOf="@id/paintingImage"
+        android:text="Katsushika Hokusai"
+        android:textSize="16dp"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/year"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/paintingArtist"
+        android:layout_toEndOf="@id/paintingImage"
+        android:text="ca. 1830–32"
+        android:textSize="14dp"
+        android:textColor="#828282" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@id/paintingImage"
+        android:layout_marginTop="10dp"
+        android:background="#DAD8D8" />
+
+</RelativeLayout>

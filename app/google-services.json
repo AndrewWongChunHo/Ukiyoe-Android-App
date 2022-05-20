@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "886189246327",
+    "project_id": "ea-android-wongchunho",
+    "storage_bucket": "ea-android-wongchunho.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:886189246327:android:2e23d1af50cc729de50372",
+        "android_client_info": {
+          "package_name": "com.example.ea_android_wongchunho"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "886189246327-7ugtknep10rk1jjfqvcn510lul7rpsv8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOkWlHGDaiB9_doeuVqN3LBhqj_YcpTKw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "886189246327-7ugtknep10rk1jjfqvcn510lul7rpsv8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
